@@ -1,0 +1,474 @@
+ @media(max-width:559px) {
+    /* #banner {
+        width: 558px !important;
+        background-color: #212529;
+        display: block;
+        justify-content: right;
+    } */
+
+
+   
+    #click:checked ~  #header {
+        left: 10px;
+    
+    }
+
+    #click{
+        display: none;
+    }
+
+
+    /* banner section */
+    .banner_img {
+        width: 558px !important;
+        background: fixed;
+        padding: 250px 0 185px 0;
+        position: relative;
+        z-index: 1;
+        clip-path: none !important;
+
+    }
+
+
+    /* feature section */
+    #feature {
+        width: 558px !important;
+        background-color: #212529;
+        padding-top: 60px;
+        padding-bottom: 70px;
+        border-bottom: 1px solid #000;
+      
+      }
+
+      .small_device {
+        width: 355px !important;
+        margin-left: 44px;
+        height: 247px;
+        margin-bottom: 30px !important;
+    }
+    .small_device i {
+        padding-left: 47%;
+        padding-bottom: 15px;
+    
+    }
+    .small_device h3 {
+        padding-left: 17%;
+        padding-top: 5px;
+        font-size: 22px;
+        font-weight: 500;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+    }
+    .small_device p {
+        padding: 5px 20px !important;
+        font-size: 15px !important;
+        font-weight: 400;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .small_device a {
+        opacity: 0 !important;
+      }
+
+
+      /* portfolio section */
+      #portfolio {
+        width: 558px !important;
+        background-color: #212529;
+        padding-top: 150px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #000;
+    }
+    .ppp {
+        border-radius: 8%;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: -27px;
+        background-color: #27272eed;
+        flex: 0 0 auto;
+        width: 30% ;
+        filter: drop-shadow(0px 0px 2px rgba(309, 344, 303, 313.392));
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+
+    .small_devices{
+        width: 100% !important;
+    }
+    .hfhfhf {
+        padding-left: 10px !important;
+    }
+    .ppp img {
+        width: 480px !important;
+        border-radius: 10%;
+    }
+    .ppp h3 {
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 5px;
+        margin-left: 15px;
+        padding-top: 6px;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+    }
+    .ppp h3 span {
+        margin-left: 300px !important;
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+    }
+    .ppp p {
+        margin-left: 20px !important;
+        font-weight: 600;
+        font-size: 18px;
+        padding-top: 5px;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+    }
+    .Progress_bar_01 {
+        border-right: 0px !important;
+    }
+
+
+      /* resume section */
+      .resume_part {
+        padding-left: 0 !important;
+    }
+    #resume {
+        width: 558px !important;
+        padding: 60px 0px;
+        background-color: #212529;
+        border-bottom: 1px solid #000;
+    }
+
+    .progress_bar_01_header h4 {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 14px;
+        color: #cf2e2e;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+    .progress_bar_01_header h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #878e99;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .photoshop_txt h2 {
+        padding-right: 40%;
+        margin-right: 0 !important;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+    }
+    .Progress_bar_01_main {
+        padding-left: 32%;
+        /* text-align: center; */
+    }
+    .progress_bar_01_header h4 {
+        opacity: 0;
+        font-size: 14px;
+        color: #cf2e2e;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+   
+
+
+    /* clients section */
+    #clients {
+        width: 558px !important;
+        padding-top: 60px;
+        background-color: #212529;
+        border-bottom: 1px solid #000;
+    }
+
+    #clients .col-md-4 {
+        text-align: center;
+        padding-bottom: 50px;
+        border-right: 0px !important;
+    }
+
+
+    /* pricing section */
+    .pricing-section {
+        width: 558px !important;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background: #212529;
+        border-bottom: 1px solid #000;
+    }
+
+    /*  */
+    #contact {
+        width: 558px !important;
+        padding-top: 100px;
+        background-color: #212529;
+        padding-bottom: 100px;
+    }
+
+ }
+
+ @media(min-width:558px) and (max-width:769px){
+
+     
+    #click:checked ~  #header {
+        left: 10px;
+    
+    }
+
+    #click{
+        display: none;
+    }
+    label i{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    /* banner section */
+    .banner_img {
+        width: 768px !important;
+        background: fixed;
+        padding: 250px 0 185px 0;
+        position: relative;
+        z-index: 1;
+        clip-path: none !important;
+    }
+
+
+
+
+
+    /* feature section */
+    #feature {
+        width: 768px !important;
+        background-color: #212529;
+        padding-top: 60px;
+        padding-bottom: 70px;
+        border-bottom: 1px solid #000;
+      
+      }
+      .feature_inner{
+        margin-left: 12%;
+        /* padding-left: 65px; */
+      }
+
+      .small_device {
+        width: 355px !important;
+        margin-left: 44px;
+        height: 247px;
+        margin-bottom: 30px !important;
+    }
+    .small_device i {
+        padding-left: 47%;
+        padding-bottom: 15px;
+    
+    }
+    .small_device h3 {
+        padding-left: 17%;
+        padding-top: 5px;
+        font-size: 22px;
+        font-weight: 500;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+    }
+    .small_device p {
+        padding: 5px 20px !important;
+        font-size: 15px !important;
+        font-weight: 400;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .small_device a {
+        opacity: 0 !important;
+      }
+
+
+      /* portfolio section */
+      #portfolio {
+        width: 598px !important;
+        background-color: #212529;
+        padding-top: 150px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #000;
+    }
+    .ppp {
+        border-radius: 8%;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: -27px;
+        background-color: #27272eed;
+        flex: 0 0 auto;
+        width: 30% ;
+        filter: drop-shadow(0px 0px 2px rgba(309, 344, 303, 313.392));
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+
+    /* portfolio section */
+    .ppp{
+        width: 380px !important;
+    }
+ }
+
+
+
+
+
+
+ @media(min-width:769px) and (max-width:991px){
+    /* #navbar{
+        margin-left: 50px;
+        
+    } */
+
+
+    #click{
+        display: none;
+    }
+    .banner_img {
+        background: fixed;
+        padding: 250px 0 185px 0;
+        position: relative;
+        z-index: 1;
+        clip-path: none !important;
+    }
+
+    .ppp{
+         width: 258px !important;
+    }
+    .ppp img {
+        width: 200px !important;
+        border-radius: 10%;
+    }
+    .ppp h3 span {
+        margin-left: 52px !important;
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+    }
+    .ppp p {
+        font-weight: 600;
+        font-size: 11px !important;
+        padding-right: 10px;
+        padding-top: 5px;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+    }
+    .Progress_bar_01 {
+        margin-right: 25px !important;
+        border-right: 1px solid #74c54f;
+    }
+    .oloolo{
+        margin-right: 20px;
+    }
+    .first_feature {
+        padding-bottom: 0px !important;
+        padding-top: 31px !important;
+    }
+    .last_feature{
+        padding-bottom: 10px !important;
+        padding-top: 35px !important;
+    }
+ }
+
+
+
+ @media(min-width:1200px) and (max-width:1400px){
+    #click{
+        display: none;
+    }
+    .banner_img {
+        background: fixed;
+        padding: 250px 0 185px 0;
+        position: relative;
+        z-index: 1;
+        clip-path: none !important;
+    }
+    #click {
+        display: none;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .ppp img {
+        width: 260px !important;
+        border-radius: 10%;
+    }
+    .ppp h3 span {
+        margin-left: 110px !important;
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #878e99;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .oloolo{
+        margin-right: 20px;
+    }
+    .Progress_bar_01 {
+        margin-right: 30px;
+        border-right: 1px solid #74c54f;
+    }
+ }
+
+
+
+
+
+
+
+
+ @media(min-width:1400px) {
+    #click{
+        display: none;
+    }
+    .banner_img {
+        background: fixed;
+        padding: 250px 0 185px 0;
+        position: relative;
+        z-index: 1;
+        clip-path: none !important;
+    }
+    #click {
+        display: none;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .ppp img {
+        width: 320px !important;
+        border-radius: 10%;
+    }
+    .oloolo{
+        margin-right: 20px;
+    }
+    .Progress_bar_01 {
+        margin-right: 30px;
+        border-right: 1px solid #74c54f;
+    }
+ }
